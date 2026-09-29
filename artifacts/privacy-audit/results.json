@@ -1,0 +1,22 @@
+{
+  "testedAt": "2026-09-10T01:51:52.033Z",
+  "base": "http://127.0.0.1:3100",
+  "browser": "Microsoft Edge headless",
+  "checks": [
+    "Preferências inválidas, antigas ou com autorização opcional são rejeitadas",
+    "Primeira visita sem cookies, armazenamento ou requisições opcionais; cabeçalhos presentes",
+    "Recusa persistida após recarregar",
+    "Aceite, personalização, substituição/revogação e sincronização entre abas",
+    "Todas as rotas e links do rodapé respondem com estrutura semântica única",
+    "Permissão de cópia negada mantém o resumo disponível e informa cópia manual",
+    "Formulário sem envio, sem coleta de contatos, sem cópia automática, texto escapado e limpeza local",
+    "Validação de campo em branco e limpeza ao sair/voltar à página",
+    "Versão inválida reabre aviso e Personalizar abre gerenciamento sem consentir",
+    "Sem rolagem horizontal nas sete rotas a 390px",
+    "Nenhuma requisição externa automática nem erro JavaScript em todos os estados testados",
+    "Armazenamento bloqueado gera aviso e fallback em memória",
+    "Sem JavaScript: campos e envio desabilitados; aviso de cookies não obstrui a página"
+  ],
+  "automaticExternalRequests": 0,
+  "pageErrors": []
+}

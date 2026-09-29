@@ -1,0 +1,15 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import LegalPage, { PendingInformation } from "@/components/LegalPage";
+export const metadata: Metadata = { title: "Termos de Uso", description: "Condições de uso do site institucional da Saneyá." };
+export default function TermsPage() {
+  return <LegalPage title="Termos de Uso">
+    <section><h2>1. Sobre o site</h2><p>O site Saneyá Ambiental apresenta soluções comunitárias de saneamento e permite preparar uma mensagem de interesse. A identificação jurídica do responsável ainda está em confirmação.</p><PendingInformation label="Responsável legal pelo site e contato institucional" /></section>
+    <section><h2>2. Solicitações e contratação</h2><p>A página de cadastro não cria conta, login, contrato ou pedido enviado. O botão Preparar solicitação gera um resumo local. Cabe ao visitante revisar, copiar e encaminhar a mensagem pelo canal externo indicado, se desejar.</p><p>O preenchimento não garante atendimento, elegibilidade, orçamento, prazo ou implantação. Condições comerciais e responsabilidades técnicas precisam ser acordadas antes de contratar. A expressão Área do cliente, no menu, leva ao formulário de interesse; não há área autenticada nesta versão.</p></section>
+    <section><h2>3. Uso responsável</h2><p>Utilize informações pertinentes à solicitação. Não inclua credenciais, documentos, dados sensíveis ou informações de outras pessoas sem necessidade e autorização adequada. Não tente comprometer a segurança, interferir no funcionamento ou usar o site para atividades ilícitas.</p></section>
+    <section><h2>4. Conteúdo e imagens</h2><p>O conteúdo é informativo e não substitui avaliação técnica do local nem documentação de profissionais habilitados. Marcas, textos e imagens podem estar sujeitos a direitos de seus titulares; sua disponibilidade aqui não representa licença irrestrita de reutilização.</p><PendingInformation label="Titularidade/licenças dos materiais, autorizações de imagem e condições de reutilização" /></section>
+    <section><h2>5. Serviços externos e disponibilidade</h2><p>Links externos levam a serviços com suas próprias condições de uso e privacidade. Preparar ou copiar o resumo não envia uma mensagem. O envio deve ser concluído e conferido no serviço escolhido. O site pode passar por atualizações ou indisponibilidade.</p></section>
+    <section><h2>6. Privacidade e direitos</h2><p>Consulte a <Link href="/politica-de-privacidade">Política de Privacidade</Link>, a <Link href="/politica-de-cookies">Política de Cookies</Link> e o <Link href="/direitos-lgpd">canal LGPD</Link>. O uso do site não representa autorização genérica para marketing nem renúncia aos direitos previstos em lei.</p></section>
+    <section><h2>7. Revisão das condições</h2><p>Estes termos descrevem a versão atual do site e precisam de validação pelo responsável antes da publicação definitiva. Alterações relevantes devem ser refletidas nesta página. Aplicam-se as normas brasileiras pertinentes, preservados os direitos legalmente assegurados.</p></section>
+  </LegalPage>;
+}
