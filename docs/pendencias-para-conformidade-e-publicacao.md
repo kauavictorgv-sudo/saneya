@@ -1,5 +1,7 @@
 # Pendências para conformidade e publicação
 
+> Atualização de 08/10/2026: o formulário passou a enviar pedidos por API para o e-mail institucional, quando o Resend estiver configurado e habilitado. A caixa de contato foi adotada para atendimento de privacidade, sob acompanhamento operacional da CEO. As referências abaixo a ausência de backend/envio/canal e a campos removidos descrevem a auditoria histórica; não representam o inventário atual. Consulte `envio-pedidos-vercel.md` e a Política de Privacidade atual para o novo fluxo. Identificação jurídica, base legal e condições dos provedores continuam pendentes; a exclusão em até 30 dias para pedidos encerrados sem contratação/cancelados depende da rotina da equipe.
+
 Análise do código e implementação local em 09/09/2026 (horário de Brasília). Este relatório não declara conformidade integral nem autoriza publicação como se as lacunas abaixo estivessem resolvidas. A aplicação foi examinada; contas externas, infraestrutura publicada, contratos, processos administrativos e operações fora do site não foram auditados.
 
 **Resultado:** estrutura técnica e páginas implementadas; publicação definitiva das políticas e atendimento LGPD dependem de informações e ações do responsável. Nenhum CNPJ, endereço, e-mail, prazo institucional, operador ou base legal foi presumido. Em todas as pendências de dados institucionais abaixo, o estado é **informação necessária do responsável pelo projeto**.

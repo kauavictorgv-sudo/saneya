@@ -10,7 +10,7 @@ export default function FeaturedProject() {
       <div className="mx-auto max-w-7xl">
         <div className="relative">
           <figure className="flow-frame relative min-h-[38rem] overflow-hidden bg-brand-navy shadow-[var(--shadow-strong)] lg:min-h-[44rem]">
-            <Image src="/saneya-hero.jpg" alt="Equipe durante atividade de implantação da solução comunitária de saneamento" fill sizes="(max-width: 1279px) 100vw, 1280px" className="object-cover object-[62%_center] transition duration-700 hover:scale-[1.025]" />
+            <Image src="/saneya-featured-project.jpg" alt="Equipe durante atividade de implantação da solução comunitária de saneamento" fill sizes="(max-width: 1279px) 100vw, 1280px" className="object-cover object-[50%_38%] transition duration-700 hover:scale-[1.025]" />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/10 to-transparent" aria-hidden="true" />
             <div className="flow-panel absolute right-5 top-5 flex items-center gap-3 bg-background/95 px-4 py-3 text-brand-navy shadow-lg sm:right-8 sm:top-8"><Icon name="map" className="size-5 text-brand-orange" /><span className="text-sm font-bold">Fincão · Taquara/RJ</span></div>
           </figure>

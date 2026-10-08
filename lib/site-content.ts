@@ -109,7 +109,7 @@ export const faqItems = [
   {
     question: "Como contratar uma solução da Saneyá?",
     answer:
-      "O primeiro passo é preparar o resumo no formulário de interesse e enviá-lo manualmente pelo Instagram indicado. O preenchimento sozinho não envia os dados. Após receber a mensagem, a equipe poderá avaliar o contexto e alinhar os próximos passos. O cadastro não garante a implantação.",
+      "Preencha o pedido de atendimento e clique em Enviar pedido de atendimento. O site encaminha os dados ao e-mail da Saneyá e informa o resultado do envio. A equipe avalia o contexto e responde pelo e-mail informado. O pedido não confirma contratação ou implantação.",
   },
   {
     question: "Uma BET serve para qualquer local?",

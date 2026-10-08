@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
       "style-src 'self' 'unsafe-inline'", "img-src 'self' data: blob:", "font-src 'self'",
       `connect-src 'self'${development ? " ws: wss:" : ""}`,
       "frame-src 'none'", "object-src 'none'", "base-uri 'self'",
-      // Sem envio nativo: impede vazamento por GET se a hidratação falhar.
+      // Envio por fetch para a API própria; bloqueia submissão nativa se a hidratação falhar.
       "form-action 'none'", "frame-ancestors 'none'",
     ].join("; ");
     return [{ source: "/:path*", headers: [

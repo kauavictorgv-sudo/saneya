@@ -1,7 +1,9 @@
-// Preencher somente com informações institucionais confirmadas.
-export const privacyContact: { email: string | null } = { email: null };
+import { siteLinks } from "@/lib/site-content";
+
+// Caixa institucional existente; a CEO acompanha o atendimento e os pedidos de exclusão.
+export const privacyContact: { email: string | null } = { email: siteLinks.email };
 export const missingInformation = "informação necessária do responsável pelo projeto";
-export const policyVersion = "1.0";
+export const policyVersion = "1.1";
 export const privacyLinks = [
   { href: "/politica-de-privacidade", label: "Política de Privacidade" },
   { href: "/politica-de-cookies", label: "Política de Cookies" },

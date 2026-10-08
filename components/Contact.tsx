@@ -9,13 +9,13 @@ export default function Contact() {
           <p className="eyebrow !text-brand-orange">Próximo passo</p>
           <h2 className="section-title mt-4 !text-white">Vamos encontrar a solução adequada para o seu contexto?</h2>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-            Prepare um resumo da sua necessidade, revise e envie pelo canal
-            indicado para solicitar o primeiro atendimento técnico.
+            Envie seu pedido pelo formulário. A equipe da Saneyá analisará a
+            necessidade e responderá pelo e-mail informado.
           </p>
         </div>
         <div className="relative z-10 flex flex-col gap-3 sm:flex-row lg:flex-col">
           <Link href="/cadastro" className="button-primary">
-            Iniciar cadastro
+            Solicitar atendimento
             <Icon name="clipboard" className="size-5" />
           </Link>
           <a href="#solucoes" className="button-inverse">

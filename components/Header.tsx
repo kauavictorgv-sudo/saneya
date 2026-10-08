@@ -158,14 +158,14 @@ export default function Header() {
             className="water-fill hidden min-h-11 items-center justify-center gap-2 rounded-[1rem_0.35rem_1rem_1rem] bg-brand-navy px-5 text-sm font-bold text-white shadow-[var(--shadow-soft)] transition hover:translate-x-1 hover:bg-brand-blue xl:inline-flex"
             onClick={() => setServicesOpen(false)}
           >
-            Área do cliente
+            Solicitar atendimento
             <Icon name="user" className="size-5 shrink-0" />
           </Link>
 
           <Link
             href="/cadastro"
             className="water-icon-button inline-flex size-11 items-center justify-center rounded-[1rem_0.35rem_1rem_1rem] bg-brand-blue text-white shadow-sm transition hover:bg-brand-navy xl:hidden"
-            aria-label="Área do cliente"
+            aria-label="Solicitar atendimento"
             onClick={closeNavigation}
           >
             <Icon name="user" className="size-5" />
@@ -184,7 +184,7 @@ export default function Header() {
           className="water-fill mb-3 inline-flex min-h-12 items-center justify-center gap-2 rounded-[1rem_0.35rem_1rem_1rem] bg-brand-blue px-5 font-bold text-white transition hover:bg-brand-navy"
           onClick={closeNavigation}
         >
-          Área do cliente
+          Solicitar atendimento
           <Icon name="user" className="size-5 shrink-0" />
         </Link>
         <nav aria-label="Navegação em dispositivos móveis">
