@@ -11,8 +11,11 @@ const complementarySolutions: Array<{ id: string; status: string; icon: IconName
 function BetDiagram() {
   return (
     <div className="flow-panel relative min-h-72 overflow-hidden bg-background p-6 text-brand-navy shadow-[var(--shadow-image)] sm:p-8">
-      <p className="relative flex items-center gap-3 text-sm font-bold"><Icon name="building" className="size-5 text-brand-orange" />Águas negras direcionadas com segurança</p>
-      <div className="relative mt-14 border-2 border-brand-blue bg-white p-4"><span className="absolute -top-9 left-1/2 h-9 w-3 -translate-x-1/2 rounded-t-full bg-brand-blue" aria-hidden="true" /><div className="h-7 bg-aqua-100" /><div className="mt-2 h-9 bg-sand-300" /><div className="mt-2 h-12 bg-brand-blue" /><div className="mt-4 flex justify-between gap-4 text-xs font-bold text-ink-600"><span>Sistema impermeabilizado</span><span className="text-right">Planejamento obrigatório</span></div></div>
+      <ul className="grid gap-3 text-sm font-bold leading-6">
+        <li className="flex items-start gap-3"><Icon name="chart" className="mt-0.5 size-5 shrink-0 text-brand-orange" />Mais de 90% de eficiência do sistema</li>
+        <li className="flex items-start gap-3"><Icon name="users" className="mt-0.5 size-5 shrink-0 text-brand-orange" />8 pessoas com acesso a esgotamento sanitário</li>
+      </ul>
+      <div className="relative mt-14 border-2 border-brand-blue bg-white p-4" aria-hidden="true"><span className="absolute -top-9 left-1/2 h-9 w-3 -translate-x-1/2 rounded-t-full bg-brand-blue" /><div className="h-7 bg-aqua-100" /><div className="mt-2 h-9 bg-sand-300" /><div className="mt-2 h-12 bg-brand-blue" /></div>
     </div>
   );
 }
